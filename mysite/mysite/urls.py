@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # include allows referencing other  URLconfs
     path('polls/', include('polls.urls')),
+    path('blog/', include('blog.urls')),
 ]
